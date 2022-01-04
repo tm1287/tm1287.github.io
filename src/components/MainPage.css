@@ -1,0 +1,23 @@
+#main-page-title { /* This div will overlay the text on top of the particlejs */
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: auto;
+    transform: translate(-50%, -80%);
+}
+
+#main-page-text {
+    color: #fff;
+}
+
+#main-page-title-text {
+    color: #fff;
+    text-decoration: underline #3b82f6;
+    text-underline-offset: 30%;
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
