@@ -1,6 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import MainPage from './components/MainPage';
+import MainPage from './components/MainPage/';
+import { Project, ProjectsContainer } from './components/Projects/';
+import Navbar from './components/Navbar/';
 import { Menu, Row, Col, Layout, Affix } from 'antd';
 import {
   BrowserRouter as Router,
@@ -11,8 +12,6 @@ import {
   withRouter,
   Redirect,
 } from "react-router-dom";
-import ProjectsContainer from './components/ProjectsContainer';
-import Navbar from './components/Navbar';
 
 const { SubMenu } = Menu;
 const { Header, Content, Footer } = Layout;
