@@ -8,7 +8,7 @@ const { Title } = Typography;
 
 function MainPage() {
     return (
-        <div>
+        <div className="main">
             <div id="main-page-title">
                 <Title id="main-page-title-text">
                     Tejas Maraliga
@@ -20,7 +20,7 @@ function MainPage() {
             <Particles
                 id="tsparticles"
                 options = {particleJson}
-                height="100vh"
+                height="calc(100vh - 64px)"
             />
         </div>
     )
