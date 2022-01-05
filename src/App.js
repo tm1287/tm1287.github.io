@@ -21,7 +21,7 @@ function App() {
   return (
     <Layout className='layout'>
       <Affix offsetTop={0}>
-        <Header style={{backgroundColor: "#1d1d1d", borderBottom: "3px solid #bbb"}}>
+        <Header style={{backgroundColor: "#1d1d1d", borderBottom: "3px solid #3b82f6"}}>
           <Navbar />
         </Header>
       </Affix>
