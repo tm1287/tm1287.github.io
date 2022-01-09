@@ -12,6 +12,7 @@ import {
   withRouter,
   Redirect,
 } from "react-router-dom";
+import Skills from './components/Skills/Skills';
 
 const { SubMenu } = Menu;
 const { Header, Content, Footer } = Layout;
@@ -28,6 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/projects" element={<ProjectsContainer />} />
+          <Route path="/skills" element={<Skills />} />
         </Routes>
       </Content>
     </Layout>
