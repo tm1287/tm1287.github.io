@@ -1,16 +1,13 @@
-#main-page-title { /* This div will overlay the text on top of the particlejs */
-    text-align: center;
+#main-page {
     position: absolute;
-    z-index: 5;
-    top: 50%;
-    left: 50%;
-    width: 50%;
-    height: auto;
-    transform: translate(-50%, -80%);
+    top: 30%;
+    width: 100%;
 }
 
 #main-page-text {
     color: #fff;
+    text-align: center;
+
 }
 
 #main-page-title-text {
@@ -20,4 +17,5 @@
     font-size: 4em;
     font-weight: bold;
     margin-bottom: 0.5em;
+    text-align: center;
 }
