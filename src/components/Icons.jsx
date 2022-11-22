@@ -150,7 +150,7 @@ function LinuxIcon (props) {
     let placement = props.placement || 'top';
     return (
         <Tooltip title="Linux" placement={placement}>
-            <img height={height} alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original-wordmark.svg" />
+            <img height={height} alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
         </Tooltip>
     )
 }
@@ -160,7 +160,7 @@ function NginxIcon(props) {
     let placement = props.placement || 'top';
     return (
         <Tooltip title="NGINX" placement={placement}>
-            <img height={height} alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original-wordmark.svg" />
+            <img height={height} alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" />
         </Tooltip>
     )
 }

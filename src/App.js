@@ -21,11 +21,11 @@ function App() {
   return (
     <Layout style={{height: "100vh"}}>
       <Affix offsetTop={0}>
-        <Header style={{backgroundColor: "#1d1d1d", borderBottom: "3px solid #3b82f6"}}>
+        <Header style={{backgroundColor: "#24272B", borderBottom: "3px solid #004BA8"}}>
           <Navbar />
         </Header>
       </Affix>
-      <Content style={{height: "100%", backgroundColor: "#818589"}}>
+      <Content style={{height: "100%", backgroundColor: "#4A525A"}}>
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/projects" element={<ProjectsContainer />} />
