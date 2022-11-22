@@ -106,19 +106,21 @@ let skillMap = {
 
 function Skills() {
     return (
-        <div id="skills-box">
-            <Row gutter={[0,32]} justify="center">
-                {Object.keys(skillMap).map(element => (
-                        <Col span={4}>
-                            <Row justify="center">
-                                {skillMap[element].icon}
-                            </Row>
-                            <Title style={{textAlign: "center"}} level={4}>{skillMap[element].title}</Title>
-                        </Col>
-                ))}
-            </Row>
+        <div id="skills-container">
+            <Title id="title-text">Skills and Technologies</Title>
+            <div id="skills-box">
+                <Row gutter={[0,32]} justify="center">
+                    {Object.keys(skillMap).map(element => (
+                            <Col span={4}>
+                                <Row justify="center">
+                                    {skillMap[element].icon}
+                                </Row>
+                                <Title style={{textAlign: "center"}} level={4}>{skillMap[element].title}</Title>
+                            </Col>
+                    ))}
+                </Row>
+            </div>
         </div>
-
     )
 }
 
