@@ -25,6 +25,16 @@ import { ReactComponent as YourSvg } from './your-svg.svg';
             <img height="64px" alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 */
 
+function AngularIcon (props) {
+    let height = props.height || 64;
+    let placement = props.placement || 'top';
+    return (
+        <Tooltip title="Angular" placement={placement}>
+            <img height={height} alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+        </Tooltip>
+    )
+}
+
 function AWSIcon (props) {
     let height = props.height || 64;
     let placement = props.placement || 'top';
@@ -226,6 +236,7 @@ function GithubIcon (props) {
 }
 
 export {
+    AngularIcon,
     AWSIcon,
     ApacheIcon,
     BashIcon,

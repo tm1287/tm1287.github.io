@@ -7,8 +7,8 @@
 }
 
 #skills-box {
-    background-color: slategrey;
-    margin: 0px 200px;
+    background-color: #4A525A;
+    margin: 0px 20px;
     padding: 10px;
     border-radius: 15px;
 }
@@ -19,4 +19,12 @@
     justify-content: center;
     gap: 20px;
     height: 100%;
+}
+
+.skill-card {
+    margin: 0 5px;
+    padding: 2px;
+    background-color: slategrey;
+    border-radius: 10px;
+    /*box-shadow: 3px 3px 2px black;*/
 }

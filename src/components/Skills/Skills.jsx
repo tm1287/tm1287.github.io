@@ -23,84 +23,90 @@ import {
     RedisIcon,
     ReduxIcon,
     SassIcon,
-    GithubIcon
+    GithubIcon,
+    AngularIcon
 } from "../Icons.jsx";
 
 const { Title } = Typography;
 
+const HEIGHT = 96;
 
 let skillMap = {
+    angular: {
+        title: "Angular",
+        icon: <AngularIcon height={HEIGHT}/>
+    },
     aws: {
-        title: "Amazon Web Services",
-        icon: <AWSIcon height={128}/>
+        title: "AWS",
+        icon: <AWSIcon height={HEIGHT}/>
     },
     apache: {
         title: "Apache",
-        icon: <ApacheIcon height={128}/>
+        icon: <ApacheIcon height={HEIGHT}/>
     },
     bash: {
         title: "Bash",
-        icon: <BashIcon height={128}/>
+        icon: <BashIcon height={HEIGHT}/>
     },
     css: {
         title: "CSS3",
-        icon: <CSS3Icon height={128}/>
+        icon: <CSS3Icon height={HEIGHT}/>
     },
     docker: {
         title: "Docker",
-        icon: <DockerIcon height={128}/>
+        icon: <DockerIcon height={HEIGHT}/>
     },
     flask: {
         title: "Flask",
-        icon: <FlaskIcon height={128}/>
+        icon: <FlaskIcon height={HEIGHT}/>
     },
     git: {
         title: "Git",
-        icon: <GitIcon height={128}/>
+        icon: <GitIcon height={HEIGHT}/>
     },
     graphql: {
         title: "GraphQL",
-        icon: <GraphQLIcon height={128}/>
+        icon: <GraphQLIcon height={HEIGHT}/>
     },
     html: {
         title: "HTML5",
-        icon: <HTML5Icon height={128}/>
+        icon: <HTML5Icon height={HEIGHT}/>
     },
     java: {
         title: "Java",
-        icon: <JavaIcon height={128}/>
+        icon: <JavaIcon height={HEIGHT}/>
     },
     javascript: {
         title: "Javascript",
-        icon: <JavascriptIcon height={128}/>
+        icon: <JavascriptIcon height={HEIGHT}/>
     },
     linux: {
         title: "Linux",
-        icon: <LinuxIcon height={128}/>
+        icon: <LinuxIcon height={HEIGHT}/>
     },
     nginx: {
         title: "NGINX",
-        icon: <NginxIcon height={128}/>
+        icon: <NginxIcon height={HEIGHT}/>
     },
     python: {
         title: "Python",
-        icon: <PythonIcon height={128}/>
+        icon: <PythonIcon height={HEIGHT}/>
     },
     react: {
         title: "React",
-        icon: <ReactIcon height={128}/>
+        icon: <ReactIcon height={HEIGHT}/>
     },
     redis: {
         title: "Redis",
-        icon: <RedisIcon height={128}/>
+        icon: <RedisIcon height={HEIGHT}/>
     },
     redux: {
         title: "Redux",
-        icon: <ReduxIcon height={128}/>
+        icon: <ReduxIcon height={HEIGHT}/>
     },
     sass: {
         title: "Sass",
-        icon: <SassIcon height={128}/>
+        icon: <SassIcon height={HEIGHT}/>
     }
 }
 
@@ -108,18 +114,26 @@ function Skills() {
     return (
         <div id="skills-container">
             <Title id="title-text">Skills and Technologies</Title>
-            <div id="skills-box">
-                <Row gutter={[0,32]} justify="center">
-                    {Object.keys(skillMap).map(element => (
-                            <Col span={4}>
-                                <Row justify="center">
-                                    {skillMap[element].icon}
-                                </Row>
-                                <Title style={{textAlign: "center"}} level={4}>{skillMap[element].title}</Title>
-                            </Col>
-                    ))}
-                </Row>
-            </div>
+            <Row justify='center'>
+                <Col span={18}>
+                    <div id="skills-box">
+                        <Row gutter={[0,32]} justify="center">
+                            {Object.keys(skillMap).map(element => (
+                                    <Col span={3}>
+                                        <div className='skill-card'>
+                                            <Row justify="center">
+                                                {skillMap[element].icon}
+                                            </Row>
+                                            <Title style={{textAlign: "center"}} level={5}>{skillMap[element].title}</Title>
+                                        </div>
+                                    </Col>
+                            ))}
+                            
+                        </Row>
+                    </div>
+                </Col>
+
+            </Row>
         </div>
     )
 }
