@@ -19,13 +19,13 @@ const { Header, Content, Footer } = Layout;
 
 function App() {
   return (
-    <Layout style={{height: "100vh"}}>
+    <Layout style={{minHeight: "100vh", height: "100%", backgroundColor: "#4A525A"}}>
       <Affix offsetTop={0}>
         <Header style={{backgroundColor: "#24272B", borderBottom: "3px solid #004BA8"}}>
           <Navbar />
         </Header>
       </Affix>
-      <Content style={{height: "100%", backgroundColor: "#4A525A"}}>
+      <Content style={{backgroundColor: "#4A525A"}}>
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/projects" element={<ProjectsContainer />} />

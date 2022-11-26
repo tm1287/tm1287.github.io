@@ -225,6 +225,17 @@ function SassIcon (props) {
     )
 }
 
+function SpringIcon (props) {
+    let height = props.height || 64;
+    let placement = props.placement || 'top';
+    return (
+        <Tooltip title="Spring" placement={placement}>
+            <img height={height} alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
+        </Tooltip>
+    )
+
+}
+
 function GithubIcon (props) {
     let height = props.height || 64;
     let placement = props.placement || 'top';
@@ -256,5 +267,6 @@ export {
     RedisIcon,
     ReduxIcon,
     SassIcon,
+    SpringIcon,
     GithubIcon,
 }

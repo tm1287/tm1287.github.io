@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./Skills.css"
+import projects from "../projects.json";
 
-import {Row, Col, Typography} from 'antd';
+import {Row, Col, Typography, Drawer} from 'antd';
 
 import {
     AWSIcon,
@@ -26,6 +27,7 @@ import {
     GithubIcon,
     AngularIcon
 } from "../Icons.jsx";
+import { Project } from '../Projects';
 
 const { Title } = Typography;
 
@@ -111,16 +113,23 @@ let skillMap = {
 }
 
 function Skills() {
+    const [open, setOpen] = useState(false);
+
+    const onClose = () => {
+        setOpen(false);
+    }
+
     return (
+        <>
         <div id="skills-container">
-            <Title id="title-text">Skills and Technologies</Title>
+            <Title style={{margin: "50px"}} id="title-text">Skills and Technologies</Title>
             <Row justify='center'>
                 <Col span={18}>
                     <div id="skills-box">
                         <Row gutter={[0,32]} justify="center">
                             {Object.keys(skillMap).map(element => (
                                     <Col span={3}>
-                                        <div className='skill-card'>
+                                        <div className='skill-card' onClick={(e) => {setOpen(!open)}}>
                                             <Row justify="center">
                                                 {skillMap[element].icon}
                                             </Row>
@@ -135,6 +144,12 @@ function Skills() {
 
             </Row>
         </div>
+        <Drawer title="Basic Drawer" size="large" placement="right" onClose={onClose} open={open}>
+            {projects.map((p) => {
+                return <Project title={p.title} desc={p.desc} tags={p.tags}/>
+            })}
+        </Drawer>
+        </>
     )
 }
 
