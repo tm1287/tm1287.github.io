@@ -1,6 +1,7 @@
 import './App.css';
 import MainPage from './components/MainPage/';
-import { Project, ProjectsContainer } from './components/Projects/';
+import {ProjectsContainer } from './components/Projects/';
+import Resume from "./components/Resume/";
 import Navbar from './components/Navbar/';
 import { Menu, Row, Col, Layout, Affix } from 'antd';
 import {
@@ -30,6 +31,7 @@ function App() {
           <Route path="/" element={<MainPage />} />
           <Route path="/projects" element={<ProjectsContainer />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </Content>
     </Layout>

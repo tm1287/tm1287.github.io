@@ -4,8 +4,8 @@ import { Card } from "antd";
 
 function Project(props) {
     return (
-        
-        <Card
+        (props.img) ? (
+          <Card
             bordered={true}
             style={{
                 width: "100%",
@@ -16,7 +16,7 @@ function Project(props) {
             cover={
                 <img
                   className="card-cover" //This css style is not being applied. TODO: Revisit
-                  src={require("../../images/DCPDRxn.jpg")}
+                  src={props.img}
                   style={{ pointerEvents: "none", height: "200px", objectFit: "cover", borderRadius: "15px"}}
                   alt="cover"
                 />
@@ -28,6 +28,11 @@ function Project(props) {
             {props.desc}
           </p>
         </Card>
+
+        ) : (
+          <div/>
+        )
+        
     )
 }
 

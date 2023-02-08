@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import "./Skills.css"
-import projects from "../projects.json";
+import project_data from "../project_data.json";
 
 import {Row, Col, Typography, Drawer} from 'antd';
 
@@ -27,7 +27,7 @@ import {
     GithubIcon,
     AngularIcon
 } from "../Icons.jsx";
-import { Project } from '../Projects';
+import Project from '../Projects/Project.jsx';
 
 const { Title } = Typography;
 
@@ -145,7 +145,7 @@ function Skills() {
             </Row>
         </div>
         <Drawer title="Basic Drawer" size="large" placement="right" onClose={onClose} open={open}>
-            {projects.map((p) => {
+            {project_data.map((p) => {
                 return <Project title={p.title} desc={p.desc} tags={p.tags}/>
             })}
         </Drawer>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Project from './Project'
 import {Row, Col, Typography} from 'antd';
-import projects from "../projects.json";
+import projects from "../project_data.json";
 
 const { Title } = Typography;
 
