@@ -32,7 +32,7 @@
         "link": "/projects/tii-aws",
         "desc": "Architecturing resilient and scalable cloud infrastructure for management of high-school interns.",
         "tags": ["aws", "react", "graphql", "javascript", "python", "nginx", "bash", "docker", "redux", "sass", "linux"],
-        "img": "https://tm1287.github.io/images/MultiAccount.png?raw=true"
+        "img": "https://github.com/tm1287/old-portfolio-site/raw/master/images/MultiAccount.png"
 
     },
     {
