@@ -24,7 +24,7 @@ function ProjectDetails() {
       })
   })
   return (
-    <div style={{padding: "100px", backgroundColor: "#F0F8FF"}}>
+    <div style={{padding: "100px", backgroundColor: "#F0F8FF", minHeight: "93vh"}}>
         <ReactMarkdown>{text}</ReactMarkdown>
     </div>
   )
