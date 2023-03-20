@@ -6,8 +6,9 @@ import tii_sp from "./Writeups/tii-sp.md";
 import liftoff2021 from "./Writeups/liftoff2021.md";
 import s2s from "./Writeups/s2s.md";
 import dcpd from "./Writeups/dcpd.md";
-import semicrystalline from "./Writeups/semicrystalline.md"
-
+import semicrystalline from "./Writeups/semicrystalline.md";
+import lhr from "./Writeups/lhr.md";
+import flightcontroller from "./Writeups/flightcontroller.md";
 
 function ProjectDetails() {
   let md_map = {
@@ -17,6 +18,8 @@ function ProjectDetails() {
     "s2s": s2s,
     "dcpd": dcpd,
     "semicrystalline": semicrystalline,
+    "lhr": lhr,
+    "flightcontroller": flightcontroller,
   }
 
   const [text, setText] = useState("");

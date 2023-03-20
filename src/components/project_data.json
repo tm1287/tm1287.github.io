@@ -14,6 +14,20 @@
         "img": "https://github.com/tm1287/StaticAssets/blob/master/DCPDRxn.jpg?raw=true"
     },
     {
+        "title": "Longhorn Racing: Data Acquisition and Telemetry",
+        "link": "/projects/lhr",
+        "desc": "Developing a data acquisition and telemetry system for analysis of race car data.",
+        "tags": ["aws", "react", "javascript", "python", "docker"],
+        "img": "https://static.wixstatic.com/media/649d3f_05380b3b3fc443a7b5304c5f9135bf9e~mv2.jpg/v1/fill/w_1152,h_916,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/649d3f_05380b3b3fc443a7b5304c5f9135bf9e~mv2.jpg"
+    },
+    {
+        "title": "Custom Flight Controller",
+        "link": "/projects/flightcontroller",
+        "desc": "Developing custom hardware and software for a autonomous multi-rotor aircraft.",
+        "tags": ["C", "KiCAD"],
+        "img": "https://github.com/tm1287/FlightController/raw/master/Hardware/Documentation/Board.png"
+    },
+    {
         "title": "Fidelity Investments: Server-to-Server Messaging",
         "link": "/projects/s2s",
         "desc": "Building tools to enable deployment and testing of financial event notification pipelines.",
