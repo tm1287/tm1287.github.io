@@ -4,6 +4,9 @@ import { useParams } from "react-router-dom";
 import tii_aws from "./Writeups/tii-aws.md";
 import tii_sp from "./Writeups/tii-sp.md";
 import liftoff2021 from "./Writeups/liftoff2021.md";
+import s2s from "./Writeups/s2s.md";
+import dcpd from "./Writeups/dcpd.md";
+import semicrystalline from "./Writeups/semicrystalline.md"
 
 
 function ProjectDetails() {
@@ -11,6 +14,9 @@ function ProjectDetails() {
     "tii-aws": tii_aws,
     "tii-sp": tii_sp,
     "liftoff2021": liftoff2021,
+    "s2s": s2s,
+    "dcpd": dcpd,
+    "semicrystalline": semicrystalline,
   }
 
   const [text, setText] = useState("");

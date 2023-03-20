@@ -1,5 +1,12 @@
 [
     {
+        "title": "Designing a Gradiently Controlled Semicrystalline Resin System",
+        "link": "/projects/semicrystalline",
+        "desc": "Developing a bi-polymer acrylate system capable of patterned crystalline domains and shape memory through DLP 3D printing.",
+        "tags": ["_3dprinting", "chemistry"],
+        "img": "https://www.sigmaaldrich.com/deepweb/content/dam/sigma-aldrich/structure8/066/mfcd00015091.eps/_jcr_content/renditions/mfcd00015091-large.png"
+    },
+    {
         "title": "3D Printing of Dicyclopentadiene",
         "link": "/projects/dcpd",
         "desc": "Developing a resin system for the low-intensity visible-light 3D printing of dicyclopentadiene.",

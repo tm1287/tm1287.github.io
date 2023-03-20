@@ -23,7 +23,8 @@ const translateTag = (e) => {
     "_3dprinting": "3D Printing",
     "html5": "HTML5",
     "css3": "CSS3",
-    "nginx": "NGINX"
+    "nginx": "NGINX",
+    "aws": "AWS",
   }
 
   if (Object.keys(specialCases).includes(e)) {
