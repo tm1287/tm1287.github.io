@@ -3,6 +3,8 @@ import React from 'react'
 import { Card } from "antd";
 import {Link} from "react-router-dom";
 
+import "./projects.css"
+
 function Project(props) {
     return (
         (props.img) ? (
@@ -28,6 +30,9 @@ function Project(props) {
             <h1 className="card-title">{props.title}</h1>
             <p className="card-content">
               {props.desc}
+            </p>
+            <p className="card-content-bold">
+              {"Click this card to learn more."}
             </p>
           </Card>
         </Link>

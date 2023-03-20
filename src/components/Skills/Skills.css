@@ -6,6 +6,12 @@
     color: #FFF;
 }
 
+#subtitle-text {
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+}
+
 #skills-box {
     background-color: #4A525A;
     margin: 0px 20px;

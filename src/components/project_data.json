@@ -3,28 +3,28 @@
         "title": "3D Printing of Dicyclopentadiene",
         "link": "/projects/dcpd",
         "desc": "Developing a resin system for the low-intensity visible-light 3D printing of dicyclopentadiene.",
-        "tags": "Engineering",
+        "tags": ["_3dprinting", "chemistry"],
         "img": "https://github.com/tm1287/StaticAssets/blob/master/DCPDRxn.jpg?raw=true"
     },
     {
-        "title": "Fidelity Investments: Server-to-server Messaging",
+        "title": "Fidelity Investments: Server-to-Server Messaging",
         "link": "/projects/s2s",
         "desc": "Building tools to enable deployment and testing of financial event notification pipelines.",
-        "tags": ["Angular", "Spring", "Java", "Javascript", "Linux", "HTML5", "CSS3", "Apache", "Git"],
-        "img": "https://play-lh.googleusercontent.com/9vz7LhgShtVOsguym97WraeS0HMyF3hZHAt6jtC4RQ-S6VNYIavo-r_q7N3-368xk-0U"
+        "tags": ["angular", "spring", "java", "javascript", "linux", "html5", "css3", "apache", "git"],
+        "img": "https://logos-world.net/wp-content/uploads/2021/02/Fidelity-Logo.png"
     },
     {
         "title": "The Internship Initiative: Student Portal",
         "link": "/projects/tii-sp",
         "desc": "Building an full-stack enterprise applicant tracking system through AWS and React, to enable high schoolers to seek out internships.",
-        "tags": ["AWS", "React", "Flask", "Javascript", "Python", "Apache", "Bash", "Docker", "Redis", "Redux", "Sass", "Linux"],
+        "tags": ["aws", "react", "flask", "javascript", "python", "apache", "bash", "docker", "redis", "redux", "sass", "linux"],
         "img": "https://github.com/tm1287/StaticAssets/blob/master/StudentPortal.jpg?raw=true"
     },
     {
         "title": "The Internship Initiative: Scalable Cloud Infrastructure",
         "link": "/projects/tii-aws",
         "desc": "Architecturing resilient and scalable cloud infrastructure for management of high-school interns.",
-        "tags": ["AWS", "React", "GraphQL", "Javascript", "Python", "NGINX", "Bash", "Docker", "Redux", "Sass", "Linux"],
+        "tags": ["aws", "react", "graphql", "javascript", "python", "nginx", "bash", "docker", "redux", "sass", "linux"],
         "img": "https://tm1287.github.io/images/MultiAccount.png?raw=true"
 
     },
@@ -32,7 +32,7 @@
         "title": "SAILea: Liftoff 2021",
         "link": "/projects/liftoff2021",
         "desc": "Building a full-stack competition infrastructure for an annual artificial intelligence competition. Complete with AI simulation and matchmaking powered by AWS ECS.",
-        "tags": ["AWS", "React", "GraphQL", "Javascript", "Python", "NGINX", "Bash", "Docker", "Redux", "Linux"],
+        "tags": ["aws", "react", "graphql", "javascript", "python", "nginx", "bash", "docker", "redux", "linux"],
         "img": "https://github.com/tm1287/StaticAssets/blob/master/SaileaCloudDiagram.png?raw=true"
     }
 ]

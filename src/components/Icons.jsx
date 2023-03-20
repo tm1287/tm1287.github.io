@@ -246,6 +246,28 @@ function GithubIcon (props) {
     )
 }
 
+function ChemistryIcon (props) {
+    let height = props.height || 64;
+    let placement = props.placement || 'top';
+    return (
+        <Tooltip title="Chemistry" placement={placement}>
+            <img height={height} alt="" src="https://cdn-icons-png.flaticon.com/512/1987/1987964.png" />
+        </Tooltip>
+    )
+}
+
+function _3DPrinting (props) {
+    let height = props.height || 64;
+    let placement = props.placement || 'top';
+    return (
+        <Tooltip title="3D Printing" placement={placement}>
+            <img height={height} alt="" src="https://cdn-icons-png.flaticon.com/512/4229/4229022.png" />
+        </Tooltip>
+    )
+}
+
+
+
 export {
     AngularIcon,
     AWSIcon,
@@ -269,4 +291,6 @@ export {
     SassIcon,
     SpringIcon,
     GithubIcon,
+    ChemistryIcon,
+    _3DPrinting,
 }

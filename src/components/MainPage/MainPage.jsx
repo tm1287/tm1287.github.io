@@ -16,12 +16,12 @@ function MainPage() {
     return (
         <div id="main-page">
             <Row justify="center">
-                <Col span={12}>
+                <Col span={14}>
                     <Title id="main-page-title-text">
                         Tejas Maraliga
                     </Title>
                     <Title level={3} id="main-page-text">
-                        Chemical Engineering and Computer Science student at The University of Texas at Austin, class of 2024.
+                        Chemical Engineering student at The University of Texas at Austin, class of 2024.
                     </Title>
                     <Row gutter={16} justify="center">
                         <Col>
