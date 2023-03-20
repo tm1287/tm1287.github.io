@@ -14,6 +14,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import Skills from './components/Skills/Skills';
+import ProjectDetails from './components/Projects/ProjectDetails';
 
 const { SubMenu } = Menu;
 const { Header, Content, Footer } = Layout;
@@ -30,6 +31,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/projects" element={<ProjectsContainer />} />
+          <Route path="/projects/:id" element={<ProjectDetails />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>

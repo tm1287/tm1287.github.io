@@ -146,7 +146,7 @@ function Skills() {
         </div>
         <Drawer title="Basic Drawer" size="large" placement="right" onClose={onClose} open={open}>
             {project_data.map((p) => {
-                return <Project title={p.title} desc={p.desc} tags={p.tags}/>
+                return <Project title={p.title} desc={p.desc} tags={p.tags} img={p.img}/>
             })}
         </Drawer>
         </>
