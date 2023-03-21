@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.696fd45e.css",
-    "main.js": "/static/js/main.147e50ae.js",
+    "main.js": "/static/js/main.0615561a.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "pdf.worker.js": "/dbd27c23227f0e814929af05d70abd6a.js",
     "static/media/Tejas_Maraliga_Resume.pdf": "/static/media/Tejas_Maraliga_Resume.7bd66f124afaee0ca45f.pdf",
@@ -15,11 +15,11 @@
     "static/media/dcpd.md": "/static/media/dcpd.b5fa7a4eb26e0c365902.md",
     "index.html": "/index.html",
     "main.696fd45e.css.map": "/static/css/main.696fd45e.css.map",
-    "main.147e50ae.js.map": "/static/js/main.147e50ae.js.map",
+    "main.0615561a.js.map": "/static/js/main.0615561a.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.696fd45e.css",
-    "static/js/main.147e50ae.js"
+    "static/js/main.0615561a.js"
   ]
 }
