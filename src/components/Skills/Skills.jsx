@@ -60,7 +60,7 @@ let skillMap = {
         title: "Chemistry",
         icon: <ChemistryIcon height={HEIGHT}/>
     },
-    css: {
+    css3: {
         title: "CSS3",
         icon: <CSS3Icon height={HEIGHT}/>
     },
@@ -80,7 +80,7 @@ let skillMap = {
         title: "GraphQL",
         icon: <GraphQLIcon height={HEIGHT}/>
     },
-    html: {
+    html5: {
         title: "HTML5",
         icon: <HTML5Icon height={HEIGHT}/>
     },
