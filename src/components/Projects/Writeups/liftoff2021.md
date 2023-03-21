@@ -1,4 +1,4 @@
-# Liftoff 2021: A Programming and AI Competition
+# **Liftoff 2021: A Programming and AI Competition**
 
 
 ## Competition Overview

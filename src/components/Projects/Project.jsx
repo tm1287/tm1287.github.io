@@ -44,7 +44,7 @@ function Project(props) {
                   width: "100%",
                   minHeight: "375px",
                   borderRadius: "15px",
-                  display: "inline-block"
+                  display: "inline-block",
                 }}
               cover={
                   <img

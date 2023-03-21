@@ -24,6 +24,10 @@ function ProjectDetails() {
 
   const [text, setText] = useState("");
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   let { id } = useParams(); 
 
   useEffect(() => {
